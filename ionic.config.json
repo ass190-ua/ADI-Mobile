@@ -1,0 +1,7 @@
+{
+  "name": "practica4-movil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
