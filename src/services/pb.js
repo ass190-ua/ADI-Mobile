@@ -15,8 +15,7 @@ import PocketBase from 'pocketbase';
 // - Se usa la variable VITE_PB_URL definida en .env (si existe).
 // - Si no está definida, se asume un entorno local en 127.0.0.1:8090.
 // - Esto permite que el mismo código funcione en desarrollo y despliegue.
-const pbUrl = import.meta.env.VITE_POCKETBASE_URL || 'http://127.0.0.1:8090';
-
+const pbUrl = import.meta.env.VITE_POCKETBASE_URL || 'http://4.251.193.99';
 // -----------------------------------------------------------------------
 // Instancia única de PocketBase
 // -----------------------------------------------------------------------

@@ -4,7 +4,7 @@ import legacy from '@vitejs/plugin-legacy'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
 import { defineConfig } from 'vite'
-import { VitePWA } from 'vite-plugin-pwa' 
+import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -12,9 +12,10 @@ export default defineConfig({
     vue(),
     legacy(),
     
+    // Configuración de la PWA
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'assets/**'], 
+      includeAssets: ['favicon.ico', 'assets/**'],
       manifest: {
         name: 'Memories+ App',
         short_name: 'Memories+',
